@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding quiz</title>
+  <link rel="stylesheet" href="style.css">  
+  <script defer src="./index.js"></script>
+</head>
+<body>  
+  <h1 id="codingTittle"> Coding Quiz:</h1>
+
+  <div class="hidden"><span id="timer"></span>
+  <button id="startBtn">Start Quiz</button>
+  <h2 id="question"></h2>
+  <button class="qBtn" id="possibleanswers"></button>
+  <button class="qBtn" id="possibleanswers"></button>
+  <button class="qBtn" id="possibleanswers"></button>
+  <button class="qBtn" id="possibleanswers"></button>
+  <h2 id="score"></h2>
+  <div id="modal">
+    <h2>Highest Scores</h2>
+    <button id="closeModal" onclick="closeModal()">Close</button>
+
+    <ul id="scoreList"></ul>
+  </div>
+  <div id="overlay"></div>
+</body>
+</html>
